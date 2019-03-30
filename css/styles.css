@@ -33,6 +33,19 @@ a:hover {
 	-ms-transition: all.1s ease;
 }
 
+#bgrnd {
+	display: block;
+	background-image: url(../images/bgrnd.png);
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	transition: all.1s ease;
+	-webkit-transition: all.1s ease;
+	-o-transition: all.1s ease;
+	-moz-transition: all.1s ease;
+	-ms-transition: all.1s ease;
+}
+
 @media (min-aspect-ratio: 1/1) {
 	#macbook {
 		margin: 5vh;
