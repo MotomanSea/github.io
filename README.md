@@ -1,3 +1,3 @@
-# motomansea.github.io
+# Site where you'll see nothing
 dunno why I do that....
 # https://motomansea.github.io
