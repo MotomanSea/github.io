@@ -1,3 +1,3 @@
-# Simple site, nothing special
+# MotomanSea
 dunno why I do that....
 # https://motomansea.github.io
