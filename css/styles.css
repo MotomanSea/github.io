@@ -49,18 +49,12 @@ a:hover {
 		margin: 5vh;
 		height: 50vh;
 	}
-	.pic {
-		height: 15vh;
-	}
 }
 
 @media (max-aspect-ratio: 1/1) {
 	#macbook {
 		margin: 5vw;
 		height: 50vw;
-	}
-	.pic {
-		height: 15vw;
 	}
 }
 
@@ -121,7 +115,7 @@ hr {
 
 .float-right {
 	float: right;
-	margin: 50px;
+	margin-right: 25px;
 }
 
 .float-left {
@@ -140,7 +134,7 @@ hr {
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	margin: 50px auto;
+	margin: auto;
 }
 
 .stext {
@@ -152,11 +146,11 @@ hr {
 	font-size: 2.5em;
 }
 
-#copyright {
+.graytext {
 	font-family: 'Roboto Mono', monospace;
 	color: #929292;
 	text-align: center;
-	line-height: 1.7em;
+	line-height: 40px;
 	margin: auto;
 	max-width: 700px;
 }
@@ -164,18 +158,23 @@ hr {
 .flex-container {
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .pic {
-	height: 15vh;
-	margin: 2vh;
+	height: 40px;
+}
+
+.arrow {
+	opacity: 0.7;
 }
 
 .sep25 {
 	height: 25px;
+	width: 25px;
 }
 
 .sep50 {
 	height: 50px;
+	width: 25px;
 }
